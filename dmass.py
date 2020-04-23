@@ -1,3 +1,4 @@
+
 import discord
 from discord.ext.commands import bot
 from discord import game
@@ -46,7 +47,7 @@ async def send(ctx, *, content: str):
                 print("can't")
                 await client.say("DM can't Sent To : {} :x: ".format(member))
                 count_failed += 1
-        print("messages succesfully sent:{}".format(count_sent))
-        print("messages unsuccesfully sent:{}".format(coutn_failed))
+    print("messages succesfully sent:{}".format(count_sent))
+    print("messages unsuccesfully sent:{}".format(coutn_failed))
 
 client.run("NzAyNTg2OTI1MDMwMTc4ODY3.XqCNzg.0lBDN81HijxArKuAG8aHzDNe4iY")                
