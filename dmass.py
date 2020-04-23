@@ -47,7 +47,7 @@ async def send(ctx, *, content: str):
                 print("can't")
                 await client.say("DM can't Sent To : {} :x: ".format(member))
                 count_failed += 1
-        await client.say("messages succesfully sent:{}".format(count_sent))
-        await client.say("messages unsuccesfully sent:{}".format(coutn_failed))
+        await client.say("messages succesfully sent: {}".format(count_sent))
+        await client.say("messages unsuccesfully sent: {}".format(count_failed))
 
 client.run("NzAyNTg2OTI1MDMwMTc4ODY3.XqCNzg.0lBDN81HijxArKuAG8aHzDNe4iY")                
